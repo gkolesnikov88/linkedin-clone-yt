@@ -3,8 +3,8 @@ import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import HeaderOption from "./HeaderOption";
 import {BusinessCenter, Chat, Home, SupervisorAccount, Notifications} from "@mui/icons-material";
-import {useDispatch, useSelector} from "react-redux";
-import {logout, selectUser} from "./features/userSlice";
+import {useDispatch} from "react-redux";
+import {logout} from "./features/userSlice";
 import {auth} from "./firebase";
 
 function Header(props) {
